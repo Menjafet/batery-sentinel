@@ -1,10 +1,17 @@
 # batery sentinel
 it tells you that you have reached 80% in your mac
 
+# for installing it do this 
+
 
 sudo mkdir -p /usr/local/bin
+
+
 sudo cp battery_alert /usr/local/bin/
+
+
 sudo chmod +x /usr/local/bin/battery_alert
+
 
 ## in case it the OS blocks you
 xattr -d com.apple.quarantine /usr/local/bin/battery_alert
